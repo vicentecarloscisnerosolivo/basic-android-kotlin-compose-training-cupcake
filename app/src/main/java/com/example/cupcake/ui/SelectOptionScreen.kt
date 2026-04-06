@@ -124,7 +124,10 @@ fun SelectOptionScreen(
 
 }
 
-@Preview
+@Preview(
+    showSystemUi = true,
+    showBackground = true
+)
 @Composable
 fun SelectOptionPreview() {
     CupcakeTheme {
